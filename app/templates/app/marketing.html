@@ -1,0 +1,78 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron" style=" background-color: paleturquoise">
+    <h1><i><u>Marketing</u></i></h1>
+    <p class="lead"></p>
+
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Mobile Device contact and revenue</h2>
+        <p>
+            <i>"Utilizing The Latest Tech"</i>
+            <i>
+                Technical Support
+                Technology Products
+                Telco, Cable, Entertainment
+                Software, Hardware
+            </i>
+        </p>
+
+    </div>
+    <div class="col-md-4">
+        <h2>Digital Media</h2>
+        <p>
+            <i>"Utilizing The Latest social Media Tech"</i>
+            <i>
+                Sales
+                Consumer & BtoB
+                Telco, Digital Communication
+                E-commerce
+            </i>
+        </p>
+
+    </div>
+    <div class="col-md-4">
+        <h2>Performance Center</h2>
+        <p>
+            <i>"Matching & Management"</i>
+            <i>
+                Lead Generation
+                Education
+                Financial/Insurance
+                Business & Home Services
+            </i>
+        </p>
+
+    </div>
+</div>
+
+<div class="jumbotron"   style=" background-color: paleturquoise">
+    <h1><i><u>Strategy</u></i></h1>
+    <p class="lead"></p>
+
+</div>
+
+<div>
+    <h1>Applying Technology</h1>
+    <p>
+        <i>
+            The important “people and processes” sales elements at The Heller Group
+            are complemented by our investment in advanced and flexible technology,
+            capable of meeting your most complex requirements.
+            Plus, your firm will find the decision makers at The Heller Group
+            approachable and creative,unlike so many competitors oversubscribed,
+            unwilling, or unable to give the proper attention to your account.
+
+            Let’s start the conversation!
+            
+        </i>
+        <p><a class="btn btn-primary btn-large" href={% url 'contact' %}>Contact Us &raquo;</a></p>
+    </p>
+</div>
+
+
+{% endblock %}
